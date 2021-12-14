@@ -8,14 +8,18 @@
 import UIKit
 
 
-struct ShoppingMallList {
-    
-    var ShoppingMallName: String
-    
-}
+var ShoppingMallList : [String] = []
+
+var ShoppingMallListData: [eventDatum] = []
 
 struct eventDatum {
-    var name: String
-    var imageURL: [String] = []
-    var eventURL: [String] = []
+    var name: String = ""
+    var imageURL: Any = []
+    var eventURL: Any = []
+    
+//    init(name: String, imageURL: [String], eventURL: [String]) {
+//        self.name = name
+//        self.imageURL = imageURL
+//        self.eventURL = eventURL
+//    }
 }
