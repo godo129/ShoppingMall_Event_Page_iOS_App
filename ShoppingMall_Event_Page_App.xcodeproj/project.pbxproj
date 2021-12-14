@@ -14,6 +14,7 @@
 		F158195227688BD200C1CCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158195027688BD200C1CCEF /* Main.storyboard */; };
 		F158195427688BD400C1CCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F158195327688BD400C1CCEF /* Assets.xcassets */; };
 		F158195727688BD400C1CCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158195527688BD400C1CCEF /* LaunchScreen.storyboard */; };
+		F15819612768A61300C1CCEF /* ShoppingMallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15819602768A61300C1CCEF /* ShoppingMallData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F158195327688BD400C1CCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F158195627688BD400C1CCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F158195827688BD400C1CCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15819602768A61300C1CCEF /* ShoppingMallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				2A953E66A2EA0E33C66329BA /* Pods-ShoppingMall_Event_Page_App.debug.xcconfig */,
 				BDCD355673670B57E8100D53 /* Pods-ShoppingMall_Event_Page_App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +105,7 @@
 		F158195F27688F7E00C1CCEF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F15819602768A61300C1CCEF /* ShoppingMallData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -224,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F158194F27688BD200C1CCEF /* ViewController.swift in Sources */,
+				F15819612768A61300C1CCEF /* ShoppingMallData.swift in Sources */,
 				F158194B27688BD200C1CCEF /* AppDelegate.swift in Sources */,
 				F158194D27688BD200C1CCEF /* SceneDelegate.swift in Sources */,
 			);
