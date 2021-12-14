@@ -1,0 +1,6 @@
+framework module Pods_ShoppingMall_Event_Page_App {
+  umbrella header "Pods-ShoppingMall_Event_Page_App-umbrella.h"
+
+  export *
+  module * { export * }
+}
